@@ -25,6 +25,13 @@
       margin-bottom: 12px;
     }
 
+    h2 {
+      font-size: 21px;
+      font-weight: normal;
+      margin-top: 30px;
+      margin-bottom: 8px;
+    }
+
     hr {
       border: 0;
       border-top: 1px solid #ccc;
@@ -40,10 +47,8 @@
       text-decoration: underline;
     }
 
-    nav {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 22px;
+    .paper {
+      margin-bottom: 18px;
     }
 
     @media (max-width: 600px) {
@@ -55,7 +60,7 @@
 </head>
 
 <body>
-  <h1>André Rosenbaum Math</h1>
+  <h1>André's page</h1>
 
   <hr>
 
@@ -66,10 +71,26 @@
     theory and combinatorics, particularly Ehrhart theory.
   </p>
 
-  <nav>
+  <p>
     <a href="cv.pdf">CV</a>
-    <a href="publications.html">Publications</a>
-    <a href="research.html">Research</a>
-  </nav>
+  </p>
+
+  <h2>Preprints</h2>
+
+  <div class="paper">
+    <a href="https://arxiv.org/abs/2608.18408">
+      Half-open integer parallelepipeds and polytope Dedekind sums
+    </a>
+    <br>
+    With Sinai Robins. 2026.
+  </div>
+
+  <div class="paper">
+    <a href="https://arxiv.org/abs/2406.15744">
+      Rational Eigenfunctions of the Hecke Operators
+    </a>
+    <br>
+    With Sinai Robins and Caio Simon de Oliveira. 2024.
+  </div>
 </body>
 </html>
